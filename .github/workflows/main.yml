@@ -16,7 +16,7 @@ jobs:
         ruby:
           - '3.2'
           - '3.1'
-          - '2.5'
+          - '2.6' # arbitrary old ruby
 
     steps:
     - uses: actions/checkout@v3
