@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    pid_cache (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.17.0)
+    rake (13.0.6)
+
+PLATFORMS
+  arm64-darwin-21
+  arm64-darwin-22
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  pid_cache!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.6
