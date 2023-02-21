@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Cache calls to Process.pid"
   spec.description = "On platforms using glibc 1.25+ Process.pid always issue a syscall which is wasteful. pid_cache prevents that."
-  spec.homepage = "https://gtihub.com/Shopify/pid_cache"
+  spec.homepage = "https://github.com/Shopify/pid_cache"
   spec.license = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
