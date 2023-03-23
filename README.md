@@ -13,8 +13,7 @@ bypassing the code responsible for clearing the cache.
 
 But doing this in Ruby is impossible, so we can safely cache the PID and save some performance.
 
-This gem is a backport of [a proposed feature for Ruby 3.3](https://bugs.ruby-lang.org/issues/19443), hopefully
-as of Ruby 3.3 this gem may be useless.
+This gem is a backport of [a Ruby 3.3 feature](https://bugs.ruby-lang.org/issues/19443), if you are running Ruby 3.3+ this gem is useless.
 
 ## Requirements
 
